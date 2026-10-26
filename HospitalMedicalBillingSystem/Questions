@@ -1,0 +1,13 @@
+1. Why is MedicalService declared abstract?
+**Ans**: MedicalService is abstract because different medical services have different ways of calculating the total cost.
+
+2. Can an object be created directly from MedicalService? Explain.
+**Ans**: No, we cannot create an object directly from MedicalService because it is an abstract class. We create objects from its subclasses.
+
+3. What is the difference between an abstract method and a concrete method?
+
+**Ans**: An abstract method has no body or implementation ,A concrete method has a body and can write code inside the concrate method.
+
+
+4. Why must each concrete subclass implement calculateTotalCost()?
+**Ans**: Each subclass must implement calculateTotalCost() because every medical service has a different cost calculation. For example, consultation adds a doctor fee, while laboratory test adds a test charge.
