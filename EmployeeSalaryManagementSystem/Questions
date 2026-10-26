@@ -1,0 +1,14 @@
+1. Identify the superclass and subclasses.
+**ans**: Supper class is a parent class is the will inherate the propertice and methods subclass.
+subclass Is inherite the methods and feild of the subclass.
+*example*:The superclass is Employee. The subclasses are FullTimeEmployee, PartTimeEmployee, and Manager.
+
+
+2. Explain how inheritance reduces code duplication.
+**ans**: to inherite an others class methods or feilds reduce duplication , because when tou have same property or mehods of 3 class and write every class by it's own that akes dupplication, it's easy to write ones and call every class you want.
+
+3. Identify the method that demonstrates polymorphism.
+**ans**:The calculateSalary() method demonstrates polymorphism because every employee type calculates salary in a different way
+
+ Explain why @Override is used.
+ **ans**:@Override is used when you want to call the methods of superclass and then to add your own implementation or statement
